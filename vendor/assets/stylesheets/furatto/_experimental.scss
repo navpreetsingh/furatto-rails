@@ -29,7 +29,7 @@ $addon-primary-bg-color: rgba(52, 152, 219, 0.6);
 
 @if($include-flexible-addons) {
   .input-addon {
-    @include flex;
+    //@include display-flex;
     margin-bottom: $input-addon-margin-bottom;
   }
 
