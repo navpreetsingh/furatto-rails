@@ -34,7 +34,7 @@ $addon-primary-bg-color: rgba(52, 152, 219, 0.6);
   }
 
   .addon-field {
-    @include flex(1 0);
+    //@include flex(1 0);
     margin-bottom: 0;
 
     &:not(:first-child) {
